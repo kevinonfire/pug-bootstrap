@@ -70,10 +70,10 @@ mixin input-group(prepend,append)
             unless !prepend
                 .input-group-addon
                     = prepend
-                block
-                unless !append
-                    .input-group-addon
-                        = append
+            block
+            unless !append
+                .input-group-addon
+                    = append
 
 //- Icon button
 mixin icon-btn(icon)
